@@ -25,12 +25,25 @@ Long-form engineering essays — the stories behind the build.
 | 01 | [I Rebuilt Everything After the Audit](./articles/01-rebuilt-after-audit.md) | Why I threw away the deployment and redeployed clean after Beosin |
 | 02 | [Why I Left LayerZero for Chainlink CCIP](./articles/02-why-i-left-layerzero.md) | Not a technical verdict — an operating-model one for a solo builder |
 | 03 | [The Same Code Behaved Differently on Every Chain](./articles/03-same-code-behaved-differently.md) | Multi-chain deployment as an accounting problem |
+| 04 | [The Decisions I Made Before Listing](./articles/04-decisions-before-listing.md) | Honest FDV, V2 over V3, and the path from one key to a multisig |
 
 ---
 
-## Engineering notes
+## Notes
 
-Shorter technical notes, organized by topic:
+Shorter technical notes — single ideas, quickly told.
+
+| Note | What it covers |
+|------|----------------|
+| [The BSC USDT Decimals Trap](./notes/usdt-decimals-trap.md) | 18 decimals on BSC vs 6 on Ethereum — off by 10^12 if you assume |
+| [Two Kinds of Priming](./notes/two-stage-prime.md) | prime-remote vs prime-gateway — two slots, two penalties |
+| [Why EVM First, Non-EVM Later](./notes/evm-first-roadmap.md) | Depth before breadth — sequencing TON, Tron, Solana |
+
+---
+
+## Engineering notes (earlier)
+
+Topic-organized notes from earlier in the build:
 
 - [`cross-chain/`](./cross-chain) — deployment accounting, bridge model, gas lessons
 - [`tokenomics/`](./tokenomics) — supply design, multi-chain allocation
